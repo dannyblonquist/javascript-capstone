@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.name-container {
+  width: 50vw;
+  height: 20vh;
+  margin-left: 300px;
+  margin-top: 20%;
+  background-color: lightgray;
+}
+
+.scroll-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  overflow-y: scroll;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+}
+
+.generate-btn {
+  height: 40px;
+  position: relative;
+  border: 3px solid black;
+  top: 100px;
+  left: 750px;
+}
